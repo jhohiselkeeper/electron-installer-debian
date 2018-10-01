@@ -40,7 +40,7 @@ module.exports = {
   getDepends: function getDepends (version) {
     return [
       getTrashDepends(version),
-      'libgconf2-4',
+      'libgconf-2-4',
       getGTKDepends(version),
       'libnotify4',
       'libnss3',
